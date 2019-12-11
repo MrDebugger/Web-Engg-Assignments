@@ -1,0 +1,52 @@
+*{
+	margin:5px;
+
+}
+body{
+	font-size: 0.8em;
+}
+div{
+	font-size: 1.1em;
+}
+.upperBox{
+	padding: 5px;
+	border: 2px solid blue;
+	width: 50%;
+	padding-bottom: 10px;
+}
+.lowerBox{
+	border: 2px solid blue;
+	width: 50%;
+	position: relative;
+	height: 300px;
+	font-family: verdana;
+}
+.topLeftBox,.bottomLeftBox,.topRightBox,.bottomRightBox{
+	border: 5px solid blue;
+	width: 30%;
+	position: absolute;
+}
+.topLeftBox{
+	top:0;
+	border-color: yellow;
+}
+.bottomLeftBox{
+	bottom:0;
+	border-color: orange;
+}
+.topRightBox{
+	right:0;
+	border-color: blue;
+}
+.bottomRightBox{
+	right:0;
+	bottom: 0;
+	border-color: green;
+}
+.centerBanner{
+	position: absolute;
+	align-items: center;
+	background-color: blue;
+	color: white;
+	left: 40%;
+}
